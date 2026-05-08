@@ -1,3 +1,4 @@
+# q1
 print("Profit loss calculator for shopkeeper")
 
 b = int(input("Enter number of items ::: "))
