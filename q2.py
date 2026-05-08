@@ -11,3 +11,4 @@ for i in range(1,x+1):
 avg= run/x
 print(f"Total run: {run}")
 print(f"Average run : {avg}")
+# Solved
