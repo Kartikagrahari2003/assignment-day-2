@@ -1,0 +1,11 @@
+myDict.keys()   return all keys
+myDict.values() return all values
+myDict.items() return all (keys,values)
+myDict.get("key"") return all keys accourding to values
+myDict.update(newDict) inserts the specified items to the dictionary
+myDict
+___________________________________________________________________
+
+Set in python
+set is the collection of unique values
+must be unique and immuatable 
