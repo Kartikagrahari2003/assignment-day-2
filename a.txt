@@ -1,0 +1,49 @@
+# File input outpur
+
+# f = open("file_name", "mode")
+
+# f= open("demo.txt", "r")
+
+# a= f.read()
+
+# print(a)
+# print(type(a))
+# f.close()
+
+# "r" for read
+#  "w" for write
+#  "x" for create a new file
+#  "a" for open for writing, appending to the end of the file if it existing
+# "+" read and write 
+# a = f.read() read entire file
+#  a = f.readline() read one line at a time
+
+
+# f = open("sample.txt", "w")
+
+# f.write("\nhbdch jnsjx jnbckjsac bc jnckjas ..124512 161521 162. ddcsdv vrdf 514563 ")
+
+# f.close()
+
+# with syntax
+
+# with open("sample.txt","a") as f: # Automatically close
+#     data = f.read()
+#     print(data)
+
+# with open("sample.txt", "w") as f:
+#     f.write("New data")
+#     print(f.read)
+
+
+# Deleteing a file...... using with os file
+
+# # import os
+# # os.renames("07may.py", "07may1.py")
+
+# with open("practice.txt", "w") as f:
+#     a=  f.write(input("Likho:::: "))
+   
+# with open("practice.txt", "r") as f:
+#     print(f.read)
+
