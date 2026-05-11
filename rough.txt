@@ -9,3 +9,44 @@ ___________________________________________________________________
 Set in python
 set is the collection of unique values
 must be unique and immuatable 
+
+
+Q1
+x = {}
+
+a=int(input("Enter subject:::"))
+
+for i in range(a):
+    sub = input("Enter subject ::::")
+    marks = int(input("Enter marks ::::"))
+
+    x.update({sub : marks})
+
+for sub, marks in x.items():
+    print(f"Subject : {sub} , Marks : {marks}")
+
+___________________________________________________________________
+
+Q2>
+x = {}
+
+a=int(input("Enter no of subject:::"))
+
+for i in range(a):
+    sub = input("Enter subject ::::")
+    marks = int(input("Enter marks ::::"))
+
+    x.update({sub : marks})
+
+z= input("Serch krne wale subject bato:::")
+
+if z in x:
+    print(f"Subject : {z}::: Marks : ({x.get(z)}) ")
+else:
+    print("No subject found....")
+
+
+
+
+
+
