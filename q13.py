@@ -20,7 +20,7 @@ if date > 0 and date <= 5:
 
 elif date > 5 and date <= 10:
     price = date * 3 * num
-
+  
 elif date > 10 and date <= 15:
     price = date * 4 * num
 
